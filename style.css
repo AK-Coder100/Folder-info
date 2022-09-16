@@ -22,7 +22,7 @@ svg{
     max-height: 20px;
 }
 table{
-    display: none;
+    display: block;
     border: solid 6px snow;
     box-shadow: 2px 2px 2px 5px grey;
     border-collapse: collapse;
