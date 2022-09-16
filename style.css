@@ -41,6 +41,9 @@ tr{
     border-bottom: inset;
     transition: 0.5s ease-in-out;
 }
+tbody{
+    overflow-wrap: anywhere;
+}
 tbody tr:hover{
     transform: scale(1.05);
     color: lightsalmon;
