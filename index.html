@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="svg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Info_icon-72a7cf.svg/2048px-Info_icon-72a7cf.svg.png" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Info</title>
+    <script src="script.js" defer></script>
+    <link rel="styleSheet" href="style.css" >
+</head>
+<body>
+    <section id="choose-sec">
+        <label for="upload"><svg viewBox="0 0 512 512" fill="blue"><path d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H298.5c-17 0-33.3-6.7-45.3-18.7L226.7 50.7c-12-12-28.3-18.7-45.3-18.7H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z"/></svg> Choose folder</label>
+        <input type="file" id="upload" webkitdirectory multiple >
+    </section>
+    
+    <section id="detail-sec"> 
+        <table>
+            <caption>Selected file</caption>
+            <thead>
+                <td>File name</td>
+                <td>Size</td>
+            </thead>
+            <tbody id="lis"></tbody>
+        </table>
+    </section>
+    <section>
+        
+    </section>
+</body>
+</html>
